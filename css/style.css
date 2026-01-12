@@ -67,16 +67,16 @@ li,
 ol {
   list-style: none;
 }
-button{
-  background:none;
-  border:1px solid #fff;
-  padding:4px 12px;
+button {
+  background: none;
+  border: 1px solid #fff;
+  padding: 4px 12px;
   border-radius: 50px;
-  font-size:14px;
+  font-size: 14px;
 }
-button:hover{
-  opacity:0.5;
-  transition:0.5s;
+button:hover {
+  opacity: 0.5;
+  transition: 0.5s;
 }
 #wrap {
   position: relative;
@@ -226,30 +226,6 @@ nav ul li:hover {
   opacity: 0.5;
   transition: 0.5s;
 }
-.nav-link {
-  display: block;
-  padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
-  font-size: var(--bs-nav-link-font-size);
-  font-weight: var(--bs-nav-link-font-weight);
-  color: var(--bs-nav-link-color);
-  text-decoration: none;
-  background: 0 0;
-  border: 0;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-    border-color 0.15s ease-in-out;
-}
-.banner {
-  width: 100%;
-  padding: 60px 0px;
-  margin: 0 auto;
-  box-sizing: border-box;
-  color: #fff;
-  text-align: center;
-}
-.banner span {
-  color: #2a7a80;
-}
-
 /*section03*/
 #section03 {
   width: 100%;
@@ -269,10 +245,10 @@ nav ul li:hover {
   align-items: center;
   gap: 120px;
 }
-.case-text button{
-   display: inline-flex;
-  align-items: center;  
-  gap:0.5rem;
+.case-text button a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 .case-menu {
   display: grid;
