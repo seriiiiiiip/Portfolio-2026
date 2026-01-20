@@ -230,6 +230,8 @@ nav ul li:hover {
 #section03 {
   width: 100%;
   padding: 0px 100px;
+  display: flex;
+  align-items: center;
 }
 #section03 h2 {
   font-size: 20px;
@@ -265,7 +267,7 @@ nav ul li:hover {
 }
 .case-layout {
   margin: 0 auto;
-  transform: translateY(25%);
+  /* transform: translateY(25%); */
   padding: 0 60px;
   display: grid;
   grid-template-columns: 0.4fr 0.6fr;
@@ -276,7 +278,7 @@ nav ul li:hover {
 .case-fixed-text {
   position: relative;
   z-index: 10;
-  top: 120px;
+  /* top: 120px; */
   color: #fff;
 }
 
