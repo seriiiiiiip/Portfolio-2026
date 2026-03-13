@@ -379,16 +379,19 @@ headerLinks.forEach((link) => {
       case "Visual Archive":
         scrollToSection(1);
         break;
-
-      case "Digital Experience":
+   case "AI WORK":
         scrollToSection(2);
         break;
-      case "Skill":
+      case "Digital Experience":
         scrollToSection(3);
+        break;
+       
+      case "Skill":
+        scrollToSection(4);
         break;
 
       case "Certificate":
-        scrollToSection(4);
+        scrollToSection(5);
         break;
       default:
         console.warn(`No section mapped for: ${text}`);

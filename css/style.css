@@ -492,7 +492,7 @@ nav ul li:hover {
   max-width: 500px;
 }
 
-.diff-text .eyebrow {
+.diff-text .subtitle {
   font-size: 12px;
   letter-spacing: 0.15em;
   color: #2a7a80;
@@ -532,7 +532,7 @@ nav ul li:hover {
   padding: 80px 100px;
 }
 #section04,
-#section05 .diff-text h2 {
+#section05, .diff-text h2 {
   margin: 0;
 }
 #section05 .skill-list {
@@ -616,4 +616,129 @@ nav ul li:hover {
 
 .contact-center .contact-list li {
   margin-bottom: 16px;
+}
+
+
+/*section07*/
+.gen-section {
+  width: 100%;
+  padding:100px;
+  display: flex;
+  align-items: center;
+}
+.gen-left {
+  display: flex;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.gen-text {
+  max-width: 500px;
+}
+
+.gen-text .subtitle {
+  font-size: 12px;
+  letter-spacing: 0.15em;
+  color: #2a7a80;
+}
+
+.gen-text h2 {
+  font-size: 42px;
+  margin: 20px 0;
+}
+
+.gen-text p {
+  line-height: 1.7;
+  opacity: 0.8;
+}
+
+.gen-layout {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 4vw;
+}
+
+.gen-right {
+  width: 70%;
+}
+.gen-item.h-sm {
+  aspect-ratio: 5 / 6;
+}
+
+.gen-item.h-md {
+  aspect-ratio: 5 / 5;
+}
+
+.gen-item.h-lg {
+  aspect-ratio: 5 / 10;
+}
+
+.gen-item.h-xl {
+  aspect-ratio: 6 / 11;
+}
+
+.gen-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.gen-grid {
+  width: 100%;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.gen-col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.gen-item {
+  width: 100%;
+  overflow: hidden;
+  background: #1a1a1a;
+}
+
+
+@media (max-width: 1200px) {
+  .gen-layout {
+    flex-direction: column;
+  }
+
+  .gen-left,
+  .gen-right {
+    width: 100%;
+  }
+
+  .gen-left {
+    position: static;
+  }
+}
+
+@media (max-width: 768px) {
+  .gen-grid {
+    flex-direction: column;
+  }
+
+  .gen-col.offset,
+  .gen-col.offset-sm {
+    margin-top: 0;
+  }
+
+  .gen-item.h-sm,
+  .gen-item.h-md,
+  .gen-item.h-lg,
+  .gen-item.h-xl {
+    height: auto;
+  }
+
+  .gen-item img {
+    height: auto;
+  }
 }
